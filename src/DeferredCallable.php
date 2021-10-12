@@ -43,7 +43,7 @@ class DeferredCallable
     {
         $deferred = [];
 
-        $defer = function (callable $callable) use ($deferred): void {
+        $defer = function (callable $callable) use (&$deferred) {
             array_unshift($deferred, $callable);
         };
 
