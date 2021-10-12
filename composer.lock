@@ -4,150 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ddd0e989fcc3dec59a7d2cda9ea59c5",
-    "packages": [
-        {
-            "name": "zheltikov/php-exceptions",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zheltikov/php-exceptions.git",
-                "reference": "3da69489187defcf6bc1b1fd949a0e61bf9c3bf2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zheltikov/php-exceptions/zipball/3da69489187defcf6bc1b1fd949a0e61bf9c3bf2",
-                "reference": "3da69489187defcf6bc1b1fd949a0e61bf9c3bf2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.3"
-            },
-            "require-dev": {
-                "nazar-pc/phpt-tests-runner": "^1.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Zheltikov\\Exceptions\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Max Zheltikov",
-                    "homepage": "https://github.com/zheltikov"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/zheltikov/php-exceptions/issues",
-                "source": "https://github.com/zheltikov/php-exceptions/tree/1.0.1"
-            },
-            "time": "2021-08-25T09:36:28+00:00"
-        },
-        {
-            "name": "zheltikov/php-invariant",
-            "version": "1.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zheltikov/php-invariant.git",
-                "reference": "8f946d0a00443a1eadf7d894838bdf2f948c0661"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zheltikov/php-invariant/zipball/8f946d0a00443a1eadf7d894838bdf2f948c0661",
-                "reference": "8f946d0a00443a1eadf7d894838bdf2f948c0661",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4",
-                "zheltikov/php-exceptions": "^1.0"
-            },
-            "require-dev": {
-                "nazar-pc/phpt-tests-runner": "^1.4"
-            },
-            "suggest": {
-                "zheltikov/php-type-assert": "Provides type checking/assertion functionality."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Zheltikov\\Invariant\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Max Zheltikov",
-                    "homepage": "https://github.com/zheltikov"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/zheltikov/php-invariant/issues",
-                "source": "https://github.com/zheltikov/php-invariant/tree/1.2.3"
-            },
-            "time": "2021-08-25T09:39:18+00:00"
-        },
-        {
-            "name": "zheltikov/php-memoize",
-            "version": "2.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zheltikov/php-memoize.git",
-                "reference": "3b5abec92dd9c5f2adce33d572dc973dd00528f8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zheltikov/php-memoize/zipball/3b5abec92dd9c5f2adce33d572dc973dd00528f8",
-                "reference": "3b5abec92dd9c5f2adce33d572dc973dd00528f8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4",
-                "zheltikov/php-invariant": "^1.0"
-            },
-            "require-dev": {
-                "nazar-pc/phpt-tests-runner": "^1.4"
-            },
-            "suggest": {
-                "zheltikov/php-memoize-redis": "An inter-process cache backed by Redis."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Zheltikov\\Memoize\\": "src/"
-                },
-                "files": [
-                    "src/functions.php",
-                    "src/_Private/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Max Zheltikov",
-                    "homepage": "https://github.com/zheltikov"
-                }
-            ],
-            "support": {
-                "issues": "https://github.com/zheltikov/php-memoize/issues",
-                "source": "https://github.com/zheltikov/php-memoize/tree/2.1.3"
-            },
-            "time": "2021-10-04T15:12:45+00:00"
-        }
-    ],
+    "content-hash": "f66cc541ca888185e05ff808f3d7f17d",
+    "packages": [],
     "packages-dev": [
         {
             "name": "nazar-pc/phpt-tests-runner",
@@ -206,7 +64,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.3"
+        "php": ">=7.0"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"

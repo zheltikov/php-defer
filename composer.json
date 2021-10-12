@@ -11,9 +11,7 @@
     ]
   },
   "require": {
-    "php": ">=7.3",
-    "zheltikov/php-invariant": "^1.0",
-    "zheltikov/php-memoize": "^2.1"
+    "php": ">=7.0"
   },
   "require-dev": {
     "nazar-pc/phpt-tests-runner": "^1.4"
